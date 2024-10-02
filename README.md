@@ -5,11 +5,35 @@ telesecundaria_763_movil
 
 [Proyecto_Telesecundaria763 Movi]
 
-2.- Metodología de Desarrollo 2.1 Selección de Metodología de Desarrollo Ágil (Scrum) Scrum fue seleccionada para el desarrollo de una PWA para la Telesecundaria 763, por su enfoque ágil y adaptabilidad a las necesidades educativas. Esta metodología organiza el trabajo en sprints cortos que permiten la entrega continua de incrementos funcionales. Cada sprint incluye planificación, ejecución, revisión y retrospectiva, garantizando un proceso iterativo y adaptable. Scrum promueve la colaboración entre desarrolladores y el personal de la escuela, facilitando la resolución rápida de problemas. Además, permite priorizar las funcionalidades clave y adaptarse a cambios durante el desarrollo, cumpliendo con las expectativas del cliente.
+2.- Metodología de Desarrollo
 
-Justificación: Scrum es ideal para el desarrollo de la PWA de la Telesecundaria 763, por su enfoque estructurado y flexible. La división en sprints cortos facilita la entrega incremental y la rápida adaptación a los cambios. La metodología fomenta la transparencia y colaboración a través de reuniones diarias, asegurando que el equipo esté alineado y que los problemas se resuelvan rápidamente. La interacción continua con el cliente asegura que el producto final cumpla con sus necesidades, ofreciendo adaptabilidad, eficiencia y una comunicación clara.
+2.1 Selección de Metodología de Desarrollo Ágil (XP)
 
-2.2 Implementación de la Planificación de la metodología seleccionada. La implementación de la planificación bajo la metodología Scrum para el desarrollo de la PWA de la Telesecundaria 763 se llevó a cabo mediante la organización del proyecto en sprints, asegurando una entrega gradual de funcionalidades. Cada sprint fue planificado en sesiones de trabajo colaborativo entre el equipo de desarrollo y los representantes de la escuela, definiendo los objetivos y las funcionalidades prioritarias a implementar. La planificación se centró en:
+Se ha seleccionado Extreme Programming (XP) como la metodología ágil para el desarrollo de la PWA para la Telesecundaria 763 debido a su enfoque en la entrega rápida de software funcional y la mejora continua. XP se basa en iteraciones cortas, lo que permite un desarrollo incremental del proyecto y garantiza que las funcionalidades se prueben y ajusten de manera constante. Esto es crucial para adaptarse a las necesidades educativas cambiantes y asegurar que los requisitos del cliente se cumplan en cada ciclo.
+
+XP promueve prácticas técnicas esenciales como el desarrollo orientado a pruebas (TDD), la programación en pareja (pair programming), la integración continua y la retroalimentación frecuente con el cliente. Estas prácticas permiten una alta calidad en el código y una rápida detección de errores, manteniendo el proyecto en constante evolución sin comprometer la estabilidad del software.
+
+Además, XP facilita la colaboración constante entre desarrolladores y el cliente, asegurando que las funcionalidades más importantes se desarrollen primero y que el equipo esté alineado con los objetivos del proyecto. Esto permite una rápida respuesta a los problemas y cambios que puedan surgir durante el desarrollo, garantizando que las expectativas del cliente se cumplan de manera efectiva.
+
+Justificación:
+
+XP es ideal para el desarrollo de la PWA de la Telesecundaria 763 debido a su enfoque en la entrega temprana y continua de valor al cliente. Las iteraciones cortas permiten ajustar el desarrollo de acuerdo con las prioridades del cliente y los requerimientos educativos, mejorando la adaptabilidad del proyecto. Las prácticas técnicas de XP, como TDD y pair programming, aseguran la calidad del código y permiten una rápida identificación y resolución de problemas, lo que resulta en un software más robusto y mantenible. Asimismo, la colaboración cercana con el cliente durante todo el ciclo de desarrollo garantiza que el producto final cumpla con sus necesidades, ofreciendo flexibilidad, eficiencia y un proceso de desarrollo ágil.
+
+2.2 Implementación de la Planificación de la metodología seleccionada
+
+La planificación del proyecto bajo la metodología XP se llevó a cabo mediante iteraciones cortas y frecuentes, asegurando que las funcionalidades clave de la PWA se implementaran de manera incremental. Cada iteración fue planificada en sesiones de trabajo colaborativo entre el equipo de desarrollo y los representantes de la escuela, priorizando las funcionalidades más importantes en función de las necesidades del cliente.
+
+El proceso de planificación en XP se centró en:
+
+Creación de Historias de Usuario: Se identificaron las necesidades específicas de la PWA y se transformaron en historias de usuario que el equipo de desarrollo podía implementar en ciclos cortos.
+
+Programación en Pareja (Pair Programming): Para mejorar la calidad del código y facilitar la revisión continua, los desarrolladores trabajaron en parejas, lo que permitió una detección temprana de errores y una mayor colaboración.
+
+Desarrollo Orientado a Pruebas (TDD): Cada funcionalidad fue desarrollada siguiendo un enfoque de pruebas primero, lo que garantizó que el código fuese robusto y fácil de mantener.
+
+Retroalimentación Continua: En cada iteración, se llevaron a cabo reuniones de retroalimentación con el cliente para revisar el progreso y ajustar las funcionalidades según fuera necesario. Esto aseguró que el producto final cumpliera con las expectativas del cliente y los usuarios.
+
+XP permitió una planificación iterativa, enfocada en la entrega rápida de valor al cliente, manteniendo una alta calidad en el código y una gran flexibilidad para adaptarse a los cambios a lo largo del desarrollo.
 
 Definición del Product Backlog: Se creó una lista de requerimientos priorizados que incluye las funcionalidades esenciales de la PWA, considerando las necesidades del cliente y el entorno educativo.
 Sprint Planning: Al inicio de cada sprint, se seleccionaron las tareas del Product Backlog que serían trabajadas durante el ciclo de dos semanas. Esta planificación se basó en la capacidad del equipo y la prioridad de cada funcionalidad.
