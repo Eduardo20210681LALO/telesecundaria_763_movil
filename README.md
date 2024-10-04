@@ -1,45 +1,97 @@
 # telesecundaria_763_movil
 telesecundaria_763_movil
 
+##Objetivo del Proyecto##
+El proyecto ***PORTAL VIRTUAL PARA LA TELESECUNDARIA 763*** es una plataforma educativa diseñada para facilitar los procesos de captura de información de los alumnos de esta institución. Los principales usuarios son los docentes, junto con el personal administrativo y directivo. Los módulos principales del portal incluyen la captura de calificaciones, la descarga de calificaciones en formato Excel, y la visualización de estadísticas gráficas, brindando una herramienta integral para la gestión y análisis de la información académica.
 
 
-[Proyecto_Telesecundaria763 Movi]
+## Alcance del Proyecto
+El proyecto consiste en desarrollar una aplicación móvil que integre un sistema de suscripción por periodo y una pasarela de pagos segura y efectiva. Esta aplicación está dirigida exclusivamente a docentes, administrativos y directivos, permitiéndoles, tras completar un periodo de prueba, realizar diversas acciones como cargar calificaciones, visualizar estadísticas y más. El objetivo es proporcionar una solución accesible y eficiente para la gestión educativa, garantizando una experiencia de usuario fluida y segura.
 
-2.- Metodología de Desarrollo
 
-2.1 Selección de Metodología de Desarrollo Ágil (XP)
+### Funcionalidades Clave ###
+- ***Captura de Calificaciones mediante Excel***: Los docentes pueden registrar calificaciones a través de archivos Excel, agilizando el proceso y evitando la captura manual.
+- ***Gestión de Alumnos***: Los profesores pueden gestionar a los alumnos por periodos, grupos y grados, permitiendo un seguimiento organizado de los estudiantes.
+- ***Visualización de Estadísticas Gráficas***: El portal genera reportes basados en los resultados de las calificaciones, proporcionando gráficos que muestran el rendimiento académico de los alumnos.
+- ***Sistema de Calificaciones***: Permite introducir y gestionar las calificaciones de cada alumno de manera eficiente y organizada.
+- ***Notificaciones en Tiempo Real***: El personal administrativo recibe notificaciones sobre la gestión de usuarios y puede realizar acciones como actualizar periodos, gestionar nuevos alumnos, registrar bajas, y realizar otros cambios relevantes en tiempo real.
 
-Se ha seleccionado Extreme Programming (XP) como la metodología ágil para el desarrollo de la aplicación movil debido a su enfoque en la entrega rápida de software funcional y la mejora continua. XP se basa en iteraciones cortas, lo que permite un desarrollo incremental del proyecto y garantiza que las funcionalidades se prueben y ajusten de manera constante. Esto es crucial para adaptarse a las necesidades educativas cambiantes y asegurar que los requisitos del cliente se cumplan en cada ciclo.
 
-XP promueve prácticas técnicas esenciales como el desarrollo orientado a pruebas (TDD), la programación en pareja (pair programming), la integración continua y la retroalimentación frecuente con el cliente. Estas prácticas permiten una alta calidad en el código y una rápida detección de errores, manteniendo el proyecto en constante evolución sin comprometer la estabilidad del software.
+### Funcionalidades a Realizar ###
+- ***Pasarela de pagos:*** Implementar una pasarela de pagos segura que permita a los usuarios suscribirse a los diferentes periodos.
+- ***Proceso de prueba:*** Definir y gestionar un periodo de prueba en el que los usuarios puedan explorar la funcionalidad limitada de la aplicación antes de realizar la compra.
+- ***Proceso de compra de un periodo:*** Permitir a los usuarios completar el proceso de compra de un periodo, lo que les otorgará acceso completo a todas las funcionalidades de la aplicación, como cargar calificaciones y visualizar estadísticas.
 
-Además, XP facilita la colaboración constante entre desarrolladores y el cliente, asegurando que las funcionalidades más importantes se desarrollen primero y que el equipo esté alineado con los objetivos del proyecto. Esto permite una rápida respuesta a los problemas y cambios que puedan surgir durante el desarrollo, garantizando que las expectativas del cliente se cumplan de manera efectiva.
 
-Justificación:
 
-XP es ideal para el desarrollo de la app movil debido a su enfoque en la entrega temprana y continua de valor al cliente. Las iteraciones cortas permiten ajustar el desarrollo de acuerdo con las prioridades del cliente y los requerimientos educativos, mejorando la adaptabilidad del proyecto. Las prácticas técnicas de XP, como TDD y pair programming, aseguran la calidad del código y permiten una rápida identificación y resolución de problemas, lo que resulta en un software más robusto y mantenible. Asimismo, la colaboración cercana con el cliente durante todo el ciclo de desarrollo garantiza que el producto final cumpla con sus necesidades, ofreciendo flexibilidad, eficiencia y un proceso de desarrollo ágil.
+## Metodología de Trabajo
+***Selección de Metodología de Desarrollo Ágil (Scrum)***
+- Se ha seleccionado Extreme Programming (XP) como la metodología ágil para el desarrollo de la aplicación móvil debido a su enfoque en la entrega rápida de software funcional y la mejora continua.
+- XP se basa en iteraciones cortas, lo que permite un desarrollo incremental del proyecto y garantiza que las funcionalidades se prueben y ajusten de manera constante. Esto es crucial para adaptarse a las necesidades educativas cambiantes y asegurar que los requisitos del cliente se cumplan en cada ciclo.
+- XP promueve prácticas técnicas esenciales como el desarrollo orientado a pruebas (TDD), la programación en pareja (pair programming), la integración continua, y la retroalimentación frecuente con el cliente. Estas prácticas permiten mantener una alta calidad en el código y una rápida detección de errores, asegurando que el proyecto esté en constante evolución sin comprometer la estabilidad del software.
+- XP facilita la colaboración constante entre desarrolladores y el cliente, asegurando que las funcionalidades más importantes se desarrollen primero y que el equipo esté alineado con los objetivos del proyecto. Esto permite una rápida respuesta a los problemas y cambios que puedan surgir durante el desarrollo, garantizando que las expectativas del cliente se cumplan de manera efectiva.
 
-2.2 Implementación de la Planificación de la metodología seleccionada
+***Justificación:***
+- XP es ideal para el desarrollo de la aplicación móvil debido a su enfoque en la entrega temprana y continua de valor al cliente. Las iteraciones cortas permiten ajustar el desarrollo de acuerdo con las prioridades del cliente y los requerimientos educativos, mejorando la adaptabilidad del proyecto.
+- Las prácticas técnicas de XP, como TDD y pair programming, aseguran la calidad del código y permiten una rápida identificación y resolución de problemas, lo que resulta en un software más robusto y mantenible.
+- La colaboración cercana con el cliente durante todo el ciclo de desarrollo garantiza que el producto final cumpla con sus necesidades, ofreciendo flexibilidad, eficiencia y un proceso de desarrollo ágil.
 
-La planificación del proyecto bajo la metodología XP se llevó a cabo mediante iteraciones cortas y frecuentes, asegurando que las funcionalidades clave de la PWA se implementaran de manera incremental. Cada iteración fue planificada en sesiones de trabajo colaborativo entre el equipo de desarrollo y los representantes de la escuela, priorizando las funcionalidades más importantes en función de las necesidades del cliente.
 
-El proceso de planificación en XP se centró en:
+## Herramienta de Control de Versiones ##
+- Para el control de versiones, se utilizará Git en conjunto con GitHub como plataforma de repositorio remoto.
+- Esta combinación permitirá gestionar las diferentes ramas y versiones del proyecto de manera eficiente, además de facilitar la colaboración entre los miembros del equipo y automatizar procesos mediante la integración continua.
 
-Creación de Historias de Usuario: Se identificaron las necesidades específicas de la PWA y se transformaron en historias de usuario que el equipo de desarrollo podía implementar en ciclos cortos.
+***Flujo de Trabajo***
+1. **Crear una nueva rama** para cada funcionalidad o tarea específica.
+```bash
+git checkout -b feature/branches o alguna otro nombre en especifico.
+```
+2. **Hacer commits** frecuentes de los cambios.
+```bash
+git add .
+git commit -m "Descripción del cambio realizado"
+```
+3. **Abrir un pull request** para revisión de código por otro miembro del equipo.
+```bash
+git checkout main
+```
+4. **Integrar la rama** en `main` después de que las pruebas automáticas pasen y el código sea aprobado.
+```bash
+git merge feature/branches u otro nombre de la funcionalidad creada.
+```
 
-Programación en Pareja (Pair Programming): Para mejorar la calidad del código y facilitar la revisión continua, los desarrolladores trabajaron en parejas, lo que permitió una detección temprana de errores y una mayor colaboración.
 
-Desarrollo Orientado a Pruebas (TDD): Cada funcionalidad fue desarrollada siguiendo un enfoque de pruebas primero, lo que garantizó que el código fuese robusto y fácil de mantener.
+## Estrategia de Despliegue
+Para el despliegue del proyecto, se ha seleccionado la estrategia de **Rolling**, que permite realizar actualizaciones de la aplicación sin tiempos de inactividad.
 
-Retroalimentación Continua: En cada iteración, se llevaron a cabo reuniones de retroalimentación con el cliente para revisar el progreso y ajustar las funcionalidades según fuera necesario. Esto aseguró que el producto final cumpliera con las expectativas del cliente y los usuarios.
+### Entornos de Despliegue Definidos:
+- ***Desarrollo:*** Donde se realizan pruebas locales y los desarrolladores pueden integrar nuevas funcionalidades.
+- ***Staging (Preproducción):*** Un entorno que replica la configuración de producción para realizar pruebas finales antes del despliegue definitivo.
+- ***Producción:*** El entorno en el cual el sistema está disponible para los usuarios finales y donde se despliegan las versiones estables del proyecto.
 
-XP permitió una planificación iterativa, enfocada en la entrega rápida de valor al cliente, manteniendo una alta calidad en el código y una gran flexibilidad para adaptarse a los cambios a lo largo del desarrollo.
 
-Definición del Product Backlog: Se creó una lista de requerimientos priorizados que incluye las funcionalidades esenciales de la app movil, considerando las necesidades del cliente y el entorno educativo.
-Sprint Planning: Al inicio de cada sprint, se seleccionaron las tareas del Product Backlog que serían trabajadas durante el ciclo de dos semanas. Esta planificación se basó en la capacidad del equipo y la prioridad de cada funcionalidad.
-Revisión y Retrospectiva: Al finalizar cada sprint, se llevará a cabo una revisión del incremento entregado y se discutirán las posibles mejoras en el proceso de trabajo, lo que garantiza una planificación continua y eficiente a lo largo del proyecto. Esta planificación iterativa permite la flexibilidad para adaptarse a cambios y ajustes necesarios, asegurando una evolución continua del producto hasta cumplir con los objetivos del proyecto.
-3.- Issue Tracking y Asignación de Issues 3.1 Selección de Herramienta para la Gestión (TRELLO) Para la gestión eficiente del proyecto, se ha seleccionado TRELLO como la herramienta principal. Esta plataforma ofrece una amplia gama de funcionalidades que permiten organizar y controlar las tareas, establecer plazos, asignar responsabilidades y facilitar la comunicación entre los miembros del equipo. La elección de TRELLO se basa en su capacidad para gestionar proyectos ágiles como en este caso lo presenta, proporcionando una visión clara del progreso mediante sprints, así como la posibilidad de registrar observaciones y mensajes directamente dentro de cada tarea, lo que optimiza la colaboración y el seguimiento del trabajo en tiempo real. Justificación: TRELLO permite una planificación estructurada, con calendarios y fechas de entrega bien definidas, asegurando que se cumplan los objetivos establecidos en cada fase del proyecto.
+## Proceso de CI/CD
+Se utiliza **Integración Continua (CI)** para asegurar que cada cambio que se integra al tronco principal pase por un proceso automatizado de pruebas. Cuando todas las pruebas pasan, el código se despliega automáticamente en los entornos de **Staging** y posteriormente en **Producción**.
 
-4.- Selección de Herramienta de Control de Versiones 4.1 Se ha seleccionado Git como herramienta de control de versiones en conjunto con GitHub para este proyecto. Esta combinación permite una colaboración eficiente entre los miembros del equipo, facilitando la revisión de código mediante pull requests, la creación de ramas para el desarrollo de nuevas funcionalidades y el seguimiento de cambios en tiempo real.
+## Instrucciones para Contribuir
 
-5.- Selección de Estrategia de Versionamiento 5.1 Utilizaremos GitHub Flow en nuestro proyecto porque nos permitirá Mantener la estabilidad del código: La rama main siempre contendrá el código listo para producción, evitando que cambios no probados afecten la versión estable. Desarrollar nuevas funcionalidades sin interrumpir el trabajo en producción: Las nuevas características se desarrollarán en ramas separadas, lo que nos permitirá trabajar en paralelo sin comprometer el código existente.Fácil integración y revisiones: Cada vez que se complete una funcionalidad o corrección, realizaremos un pull request para que el código sea revisado antes de ser fusionado a main, mejorando la calidad del proyecto.Respuestas rápidas a errores en producción: En caso de errores críticos, podremos crear ramas de hotfix para corregir problemas rápidamente sin afectar el desarrollo de nuevas funcionalidades.
+1. **Clonar el repositorio**: Esto descargará una copia del código fuente en tu máquina local.
+```bash
+git clone https://github.com//Eduardo20210681LALO/telesecundaria_763_movil
+```
+2. **Entrar en el directorio del proyecto**: Accede al directorio clonado donde está el código del proyecto.
+```bash
+cd telesecundaria_763_movil
+```
+3. **Instalar dependencias**: Esto instalará todas las dependencias necesarias del proyecto especificadas en package.json.
+```bash
+npm install
+```
+4. **Ejecutar el proyecto en modo desarrollo**: Inicia el servidor en modo desarrollo. Esto te permitirá ver la aplicación en tiempo real y se recargará automáticamente cuando realices cambios en el código.
+```bash
+npm run dev
+```
+5. **Ejecutar las pruebas**: Corre las pruebas automatizadas del proyecto para asegurarse de que todo funcione correctamente.
+```bash
+npm run test
+```
